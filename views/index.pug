@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    link(rel="stylesheet", href="main.css")
+    title= title
+  body
+    h1= message
+    h2= "H2"
+    table 
+      thead
+        tr
+          th id
+          th name
+          th status
+      tbody
+        each todo in todos
+          tr
+            td=todo.id
+            td=todo.description
+            td=todo.completed

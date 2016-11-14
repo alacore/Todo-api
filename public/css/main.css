@@ -1,0 +1,101 @@
+body {
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 600px;
+    font-size: 15px;
+}
+
+
+table {
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: solid #E0E4CC 1px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    box-shadow: 0 0 1em gray;
+}
+
+thead {
+    font-size: 16px;
+    background-color: #69D2E7;
+    font-weight: 400;
+    color: white;
+}
+
+th,
+td {
+    border-top: solid #E0E4CC 1px;
+    border-left: solid #E0E4CC 1px;
+}
+
+th {
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+    text-align: center;
+    border-bottom: solid #C6D5CD 4px;
+    border-top: none;
+    border-left: none;
+    background-color: inherit;
+}
+
+td {
+    font-family: 'Roboto', sans-serif;
+    padding: 7px;
+    background-color: white;
+    border-bottom: none;
+}
+
+tbody tr:hover td {
+    background: #C8ECF4;
+    /*opacity: 0.9;*/
+    transition: all 0.1s ease-in-out;
+    color: #FFFFFF;
+}
+
+th:first-child {
+    border-radius: 6px 0 0 0;
+    border-left: none;
+}
+
+td:first-child {
+    border-left: none;
+}
+
+th:last-child {
+    border-radius: 0 6px 0 0;
+}
+
+tr:last-child td:first-child {
+    border-radius: 0 0 0 6px;
+}
+
+tr:last-child td:last-child {
+    border-radius: 0 0 6px 0;
+}
+
+th:only-child,
+td:only-child {
+    border-radius: 6px 6px 0 0;
+}
+
+
+.animation {
+    width: 960px;
+    min-height: 790px;
+    background: #FFFFFF;
+    margin: 30px auto;
+}
+
+#demoCanvas {
+    border: 2px solid #E21515;
+    background-image: url(../images/red_grad.png);
+    background-repeat: repeat-x;
+}
+
